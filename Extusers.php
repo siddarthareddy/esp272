@@ -7,6 +7,7 @@
         <div class="container">
           <?php
                   echo "My Users";
+                  echo nl2br("\n");
                   $sql="SELECT fname, lname FROM users";
                   $result = mysqli_query($con,$sql);
                   while ($row = $result->fetch_assoc()) {
@@ -18,6 +19,7 @@
                   $result->close();
                   echo nl2br("\n");
                   echo "Janaki's Users";
+                  echo nl2br("\n");
                   // create curl resource
                   $ch = curl_init();
                   // set url
@@ -33,6 +35,7 @@
                   curl_close($ch);
                   echo nl2br("\n");
                   echo "Namrata's Users";
+                  echo nl2br("\n");
                   // create curl resource
                   $ch = curl_init();
                   // set url
