@@ -6,7 +6,7 @@
         <?php include "framework/nav.php"; ?>
         <div class="container">
           <?php
-                  echo "My Users";
+                  echo "<h3>My Users</h3>";
                   echo nl2br("\n");
                   $sql="SELECT fname, lname FROM users";
                   $result = mysqli_query($con,$sql);
@@ -18,7 +18,7 @@
                   }
                   $result->close();
                   echo nl2br("\n");
-                  echo "Janaki's Users";
+                  echo "<h3>Janaki's Users</h3>";
                   echo nl2br("\n");
                   // create curl resource
                   $ch = curl_init();
@@ -34,7 +34,7 @@
                   // close curl resource to free up system resources
                   curl_close($ch);
                   echo nl2br("\n");
-                  echo "Namrata's Users";
+                  echo "<h3>Namrata's Users</h3>";
                   echo nl2br("\n");
                   // create curl resource
                   $ch = curl_init();
