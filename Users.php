@@ -7,8 +7,7 @@
         <div class="container">
           <h3>User's Corner</h3>
             <a href="Register.php">Register Here</a><br>
-            <a href="Lusers.php">List of Local Users</a><br>
-            <a href="Extusers.php">List of Janaki's Users</a><br>
+            <a href="Extusers.php">List of All Users From local, Janaki and Namrata's databases</a><br>
 
             <!-- <a href="search.php">User Search</a><br> -->
         </div>
